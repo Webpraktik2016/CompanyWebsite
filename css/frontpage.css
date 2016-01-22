@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 110%;
+}
+
+body {
+    background:url("../img/footer_lodyas.png");
+    background-attachment: fixed;
+   
+    
+}
+
+.content-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+
+}
+.content-wrap:after {
+  content: "";
+  display: block;
+}
+
+.ipsum {
+    color: white;
+}
+
+.teaminfo {
+    position:absolute;
+    height:600px;
+        top:8%;
+        left:2%;
+        right: 2%;
+    background-color: black;
+}
+
+.site-footer, .content-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background-color: #222;
+  border-top: 1px solid;
+  border-color: #080808;
+}
+
+#footerinfo {
+    color: #9d9d9d;;
+}
+
